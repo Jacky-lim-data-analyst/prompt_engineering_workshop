@@ -16,3 +16,12 @@ OPENAAPI_API_KEY = sk-...
 
 # Dependencies
 All the dependencies are documented in `requirements.txt`.
+
+# Google Colab
+Make sure that the hidden file `.env` and json file `config.json` are located on the working directory. Firstly, create the files locally as shown above and upload them to google Colab.
+```
+from google.colab import files
+
+uploaded = files.upload()
+```
+A "choose file" button will pop out.
