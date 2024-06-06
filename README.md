@@ -1,5 +1,26 @@
 # Data source
-We need Kaggle dataset ([Edmunds-Consumer Car Ratings and Reviews](https://www.kaggle.com/datasets/ankkur13/edmundsconsumer-car-ratings-and-reviews)) for the RAG demo.
+We need Kaggle dataset ([Edmunds-Consumer Car Ratings and Reviews](https://www.kaggle.com/datasets/ankkur13/edmundsconsumer-car-ratings-and-reviews)) for the RAG demo. Make sure you have a Kaggle account and sign up for one if you are new to Kaggle.
+
+## Jupyter notebook on local device
+Download & unzip the dataset and place all the csv file on the virtual environment.
+
+## Colab user
+```
+# step 1
+!pip install kaggle
+
+# step 2:
+from google.colab import files
+files.upload()
+
+# step 3:
+!mkdir ~/.kaggle
+!cp kaggle.json ~/.kaggle
+
+# step 4:
+!chmod 600 ~/.kaggle/kaggle.json
+```
+Or you refer to this [Kaggle discussion](https://www.kaggle.com/discussions/general/74235).
 
 # OpenAI API
 You can either set your OpenAI API key in `.env` file or in `config.json` file.
