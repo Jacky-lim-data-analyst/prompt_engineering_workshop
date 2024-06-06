@@ -20,7 +20,7 @@ files.upload()
 # step 4:
 !chmod 600 ~/.kaggle/kaggle.json
 ```
-Or you refer to this [Kaggle discussion](https://www.kaggle.com/discussions/general/74235).
+Or you can refer to this [Kaggle discussion](https://www.kaggle.com/discussions/general/74235).
 
 # OpenAI API
 You can either set your OpenAI API key in `.env` file or in `config.json` file.
