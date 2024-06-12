@@ -1,6 +1,6 @@
 # Prerequisite
 - Basic knowledge of Python programmming
-- Subscribe to (OpenAI API)[https://platform.openai.com/docs/api-reference/introduction]. GPT models developed by OpenAI will be used throughout the workshop.
+- Subscribe to [OpenAI API](https://platform.openai.com/docs/api-reference/introduction). GPT models developed by OpenAI will be used throughout the workshop.
 
 # Data source
 We need Kaggle dataset ([Edmunds-Consumer Car Ratings and Reviews](https://www.kaggle.com/datasets/ankkur13/edmundsconsumer-car-ratings-and-reviews)) for the RAG demo. Make sure you have a Kaggle account and sign up for one if you are new to Kaggle.
