@@ -70,5 +70,7 @@ drive.mount(‘/content/gdrive’)
 ```
 git clone https://github.com/Jacky-lim-data-analyst/prompt_engineering_workshop.git
 ```
+5. Set up the OPENAI API key as mentioned on section 3.
+
 ## 5b Local Jupyter notebook (recommended)
 Or download the repo in a compressed zip file and open the Jupyter notebook locally.
