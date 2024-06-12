@@ -58,7 +58,17 @@ pip install -r requirements.txt
 ```
 
 # 5. Clone / download github repo
+## 5a Google Colab
+1. Create an empty folder on your Google Drive.
+2. Mount your google drive
+```
+from google.colab import drive
+drive.mount(‘/content/gdrive’)
+```
+3. Change your working directory
+4. Clone the github repo by following the command:
 ```
 git clone https://github.com/Jacky-lim-data-analyst/prompt_engineering_workshop.git
 ```
-Or download the repo in a compressed zip file.
+## 5b Local Jupyter notebook (recommended)
+Or download the repo in a compressed zip file and open the Jupyter notebook locally.
