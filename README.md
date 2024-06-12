@@ -1,8 +1,8 @@
-# Prerequisite
+# 1. Prerequisite
 - Basic knowledge of Python programmming
 - Subscribe to [OpenAI API](https://platform.openai.com/docs/api-reference/introduction). GPT models developed by OpenAI will be used throughout the workshop.
 
-# Data source
+# 2. Data source
 We need Kaggle dataset ([Edmunds-Consumer Car Ratings and Reviews](https://www.kaggle.com/datasets/ankkur13/edmundsconsumer-car-ratings-and-reviews)) for the RAG demo. Make sure you have a Kaggle account and sign up for one if you are new to Kaggle.
 
 ## Jupyter notebook on local device
@@ -26,7 +26,7 @@ files.upload()
 ```
 Or you can refer to this [Kaggle discussion](https://www.kaggle.com/discussions/general/74235).
 
-# OpenAI API
+# 3. OpenAI API key
 You can either set your OpenAI API key in `.env` file or in `config.json` file.
 ## .env
 ```
@@ -51,7 +51,7 @@ uploaded = files.upload()
 ```
 A "choose file" button will pop out.
 
-# Dependencies
+# 4. Dependencies
 All the dependencies are documented in `requirements.txt`. Install packages with the following commands:
 ```
 pip install -r requirements.txt
