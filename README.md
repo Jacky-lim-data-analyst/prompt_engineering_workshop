@@ -3,7 +3,7 @@
 - Subscribe to [OpenAI API](https://platform.openai.com/docs/api-reference/introduction). GPT models developed by OpenAI will be used throughout the workshop.
 
 # Data source
-We need Kaggle dataset ([Edmunds-Consumer Car Ratings and Reviews](https://www.kaggle.com/datasets/ankkur13/edmundsconsumer-car-ratings-and-reviews)) for the RAG demo. Make sure you have a Kaggle account and sign up for one if you are new to Kaggle.
+We need Kaggle dataset ([Edmunds-Consumer Car Ratings and Reviews](https://www.kaggle.com/datasets/ankkur13/edmundsconsumer-car-ratings-and-reviews)) for the RAG demo. Make sure you have a Kaggle account and sign up for one if you are new to Kaggle. Download the dataset and place it in your working directory.
 
 ## Jupyter notebook on local device
 Download & unzip the dataset and place all the csv file on the virtual environment.
