@@ -59,6 +59,6 @@ pip install -r requirements.txt
 
 # 5. Clone / download github repo
 ```
-
+git clone https://github.com/Jacky-lim-data-analyst/prompt_engineering_workshop.git
 ```
-
+Or download the repo in a compressed zip file.
