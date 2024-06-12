@@ -57,3 +57,8 @@ All the dependencies are documented in `requirements.txt`. Install packages with
 pip install -r requirements.txt
 ```
 
+# 5. Clone / download github repo
+```
+
+```
+
