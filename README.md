@@ -30,7 +30,7 @@ Or you can refer to this [Kaggle discussion](https://www.kaggle.com/discussions/
 You can either set your OpenAI API key in `.env` file or in `config.json` file.
 ## .env
 ```
-OPENAAPI_API_KEY = sk-...
+OPENAI_API_KEY = sk-...
 ```
 ## config.json
 ```
